@@ -1,0 +1,82 @@
+div {
+    border: 10px solid darkcyan;
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+  }
+  
+  #red {
+    background-color: red;
+    transition: width 3s ease;
+  }
+  
+  #green {
+    background-color: green;
+    transition: transform 2s ease;
+    transition-delay: 1s;
+  }
+  
+  #blue {
+    background-color: blue;
+    animation: expand 8s ease;
+  }
+  
+  #orange {
+    background-color: orange;
+    transition: transform 5s ease;
+  }
+  
+  #purple {
+    background-color: purple;
+  }
+  
+  #brown {
+    background-color: brown;
+  }
+  
+  /* START BELOW THIS LINE */
+
+
+  #red:hover {
+
+    width: 300px;
+
+  }
+  
+
+  #green:hover {
+
+    background-color: rgb(255, 255, 0);
+    transform: rotate(360deg);
+
+  }
+
+
+  @keyframes expand {
+
+    0% {
+
+        width: 150px;
+
+    }
+    
+    50% {
+
+        width: 450px;
+
+    }
+
+    100% {
+
+        width: 150px;
+
+    }
+
+  }
+
+
+    #orange:hover {
+        transform: rotate(360deg);
+    }
+
+  
